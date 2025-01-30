@@ -3,11 +3,13 @@
 # Sales Prediction Programming Project
 # COSC 1010
 
-# Variables to hold the sales total and the profit
+# Get the total projected sales.
+total_sales = float(input('Enter projected sales: '))
 
-# Get the amount of projected sales.
-total_sales = float(input('Enter the projected sales:'))
-# Calculate the projected profit.
-Profit = total_sales * 0.23
-# Print the projected profit.
+#Calculate the profit as 23 percent of total sales.
+profit = total_sales * 0.23
+
+#Display the profit.
 print('the profit is $', profit)
+
+#Ready for grading
